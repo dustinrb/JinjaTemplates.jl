@@ -15,7 +15,7 @@ pip install Jinja2
 Then, in the Julia REPL, install JinjaTemplates
 
 ```julia
-Pkg.add("JinjaTemplates")
+Pkg.clone("https://github.com/dustinrb/JinjaTemplates.jl.git")
 ```
 
 ## Usage
